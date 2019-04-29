@@ -33,7 +33,7 @@ Bring up the multi-container deployment with:
 
 $ docker-compose up -d
 
-The deployment uses 3+GB of RAM. Please make sure to increase Docker VM resources to 4+GB and 2+CPU.
+The deployment uses 2+GB of RAM. Please make sure to increase Docker VM resources to 4+GB and 2+CPU.
 It takes 2-3 minutes to start-up all components. Please access "http://localhost:5601" to get Kibana window, go to **Dashboard** Section and select **[Metricbeat Docker] Overview ECS** Dashboard. 
 Enjoy Monitoring!
 

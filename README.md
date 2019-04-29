@@ -1,13 +1,17 @@
 # elastic-metric
-A simple Docker Compose file to run Elastic Metric monitoring of a single node Docker
+A simple Docker Compose file to run Elastic Metric monitoring of a single node Docker.
 
-Based on following pages:
+Download this rep with:
+
+$ git clone https://github.com/pythonincontainers/elastic-metric
+
+This repo files are based on following pages:
 https://www.elastic.co/solutions/metrics
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 https://www.elastic.co/guide/en/kibana/current/docker.html
 https://www.elastic.co/guide/en/beats/metricbeat/current/running-on-docker.html
 
-This Docker Compose YML file creates following Runtime Objects:
+The Docker Compose YML file creates following Runtime Objects:
 
 - **monitoring** Overlay Network - all containers are attached to this Network to enable DNS-based Service Discovery
 - **es_data** Volume - Elasticsearch Data is stored in this persistent Volume
